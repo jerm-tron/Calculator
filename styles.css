@@ -13,11 +13,32 @@ body {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 600px;
   width: 500px;
 }
 
 .calculator-button {
+  height: 50px;
+  width: 50px;
+}
+
+.display {
+  height: 100px;
+  width: 450px;
+  margin-top: 20px;
+  text-align: right;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.display-text{font-size:40px;
+font-family:Verdana, Geneva, Tahoma, sans-serif ;}
+
+.operator-button {
   height: 50px;
   width: 50px;
 }
