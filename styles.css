@@ -48,6 +48,14 @@ body {
   background-color: aqua;
 }
 
+.equals-button {
+  height: 95%;
+  width: 90%;
+  font-size: 35px;
+  border-radius: 10px;
+  background-color: aqua;
+}
+
 .display {
   height: 420px;
   width: 480px;
