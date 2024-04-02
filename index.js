@@ -19,6 +19,18 @@ numberButtons.forEach((btn) => {
 });
 
 function clickedNumber(number) {
-  console.log(number);
+  if (num1.length <= 11) {
+    num1 += number;
+    display.textContent = num1;
+  }
 }
 
+operators.forEach((btn) => {
+  btn.addEventListener("click", (e) => {
+    clickedOperator(e.target.textContent);
+  });
+});
+
+function clickedOperator(operator) {
+  console.log(operator);
+}
