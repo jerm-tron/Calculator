@@ -31,7 +31,13 @@ body {
   width: 90%;
   font-size: 35px;
   border-radius: 10px;
+}
 
+.clear-button {
+  height: 95%;
+  width: 90%;
+  font-size: 35px;
+  border-radius: 10px;
 }
 
 .operator-button {
